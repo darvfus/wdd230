@@ -1,51 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WDD 230 - Media Query </title>
-    <meta
-      name="description"
-      content="apply the media-query."
-    />
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me | WDD230 </title>
+  <meta name="description" content="home />
     <meta name="author" content="Daniel Romero" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles/media-query.css" />
-    <link rel="stylesheet" href="styles/media-query-large.css" />
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/larger.css">
+</head>
 
-  <body>
-    <header>
-      <h1>Media Query </h1>
-    </header>
+<body>
+ <div class="name">
+  <picture>
+    <img src="images/daniel.png" alt="Daniel Image">
+  </picture>
+  Daniel Romero
+</div> 
+  <nav>
+    <ul id="menu">
+      
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="Chamber.html">Chamber</a></li>
+      <li><a href="Site-Plan.html">Site Plan</a></li>
+      <li><a href="Form.html">Form</a></li>
+    
+    </ul>
+  </nav>
+ 
+  <main>
+    <h1>WDD 230: Web Frontend Development</h1>
+    <div class="card-container">
+        <section class="card">
+            <h2>Learning Activities</h2>
+            <ul id="learning-activities">
+                <ul>week 01: <a href="week01/holygrail.html">Holgrail</a> | <a href="week01/media-query.html"> Media query | </a></ul>
+                <ul>week 02:</ul>
+                <ul>week 03:</ul>
+                <ul>week 04:</ul>
+                <ul>week 05:</ul>
+                <ul>week 06:</ul>
+            </ul>
+        </section>
+        <section class="card1">
+            <h2>Information</h2>
+            <p>Morelos, Mexico</p>
+            <p>Weather: 45 F</p>
+            <p>Number of visits: 20</p>
+        </section>
+    </div>
+</main>
 
-    <main>
-      <section>
-        <h2>1 Nephi 2:16</h2>
-        <p>
-            And it came to pass that I, Nephi, being exceedingly young,
-            nevertheless being large in stature, and also having great desires to know of the amysteries of God, 
-            wherefore, I did cry unto the Lord; and behold he did bvisit me, and did csoften my heart that I did dbelieve 
-            all the words which had been spoken by my efather; wherefore, I did not frebel against him like unto my brothers.
-        </p>
-      </section>
-      <section>
-        <h2>1 Nephi 3:7</h2>
-        <p>
-            And it came to pass that I, Nephi, said unto my father: I will go and do the things which the Lord hath commanded,
-             for I know that the Lord giveth no bcommandments unto the children of men,
-             save he shall cprepare a way for them that they may accomplish the thing which he commandeth them.
-        </p>
-      </section>
-    </main>
+<footer>
+  <p>&#169; <span id="year"></span> Daniel Romero, Mexico</p>
+  <p id="lastModified"></p>
+</footer>
 
-    <footer>
-      <p>Daniel Romero</p>
-    </footer>
-  </body>
+<!-- JavaScript -->
+<script src="getDates.js"></script>
+</body>
 </html>
