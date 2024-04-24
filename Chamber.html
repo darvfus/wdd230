@@ -4,34 +4,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Me | WDD230 </title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
-    rel="stylesheet">
+  <title>About Me | WDD230</title>
+  <meta name="description" content="home">
+  <meta name="author" content="Daniel Romero">
   <link rel="stylesheet" href="styles/larger.css">
+  <link rel="stylesheet" href="styles/base.css">
 </head>
 
 <body>
+  <header>
+    <div class="name">
+      <picture>
+        <img src="images/daniel.png" alt="Daniel Image">
+      </picture>
+      Daniel Romero
+    </div>
+    <nav>
+      <div id="menu-toggle">&#9776;</div> <!-- Icono de hamburguesa -->
+      <ul id="menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="Chamber.html">Chamber</a></li>
+        <li><a href="Site-Plan.html">Site Plan</a></li>
+        <li><a href="Form.html">Form</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <nav>
-    <ul id="menu">
-      
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="Chamber.html">Chamber</a></li>
-      <li><a href="Site-Plan.html">Site Plan</a></li>
-      <li><a href="Form.html">Form</a></li>
-    
-    </ul>
-  </nav>
- 
-  <<footer>
+  <main>
+   
+
+  <footer>
     <p>&#169; <span id="year"></span> Daniel Romero, Mexico</p>
     <p id="lastModified"></p>
   </footer>
-  
+
   <!-- JavaScript -->
-  <script src="getDates.js"></script>
-  </body>
+  <script src="scripts/getDates.js"></script>
+  <script src="scripts/menu.js"></script> <!-- Script para controlar el menú de hamburguesa -->
+</body>
 
 </html>
