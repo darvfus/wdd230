@@ -17,19 +17,22 @@
     font-size: 10px; 
     text-align: center; 
     position: relative;
+    color: white
+
   }
 
   header img {
-    display: inline-block; /* Cambiar a inline-block */
+    display: inline-block;
     width: 70px;
-    vertical-align: middle; /* Alinear verticalmente con el texto */
+    vertical-align: middle; 
   }
   
   .name {
-    display: inline-block; /* Cambiar a inline-block */
-    margin-left: 10px; /* Agregar margen izquierdo para separar la imagen */
-    vertical-align: middle; /* Alinear verticalmente con la imagen */
+    display: inline-block; 
+    margin-left: 10px; 
+    vertical-align: middle; 
     font-size: 20px;
+    color: white
   }
 
   nav {
@@ -42,7 +45,6 @@
     align-items: center;
     background-color: black; 
     padding: 5px;
-    /* position: flex; <-- Elimina esta línea */
     top: 5%; 
     left: 0;
     width: 100%;
