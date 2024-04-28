@@ -177,11 +177,11 @@ nav a:hover {
 }
 
 footer {
-  background-color: rgb(85, 120, 197);
+  background-color: rgb(59, 191, 224);
   text-align: center;
   padding: 20px;
   font-size: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: black;
+  color: white;
   display: flex; 
 }
