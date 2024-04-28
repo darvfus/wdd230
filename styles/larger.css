@@ -20,14 +20,15 @@
   }
 
   header img {
-    display: block; 
-    margin: 0 auto; 
-    width: 70px; 
+    display: inline-block; /* Cambiar a inline-block */
+    width: 70px;
+    vertical-align: middle; /* Alinear verticalmente con el texto */
   }
-
+  
   .name {
-    display: block;
-    margin-top: 10px;
+    display: inline-block; /* Cambiar a inline-block */
+    margin-left: 10px; /* Agregar margen izquierdo para separar la imagen */
+    vertical-align: middle; /* Alinear verticalmente con la imagen */
     font-size: 20px;
   }
 
@@ -41,7 +42,7 @@
     align-items: center;
     background-color: black; 
     padding: 5px;
-    position: flex;
+    /* position: flex; <-- Elimina esta línea */
     top: 5%; 
     left: 0;
     width: 100%;
