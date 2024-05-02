@@ -19,11 +19,7 @@ Fonts are separated by a | */
   --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #396E94  ;
-  --nav-link-color: white;
-  --nav-background-color: black;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #63c5ec;
-}
+
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
@@ -98,34 +94,8 @@ p.colored {
   color: var(--paragraph-color-on-color);
 }
 
-nav {
-  background-color: var(--nav-background-color);
-  line-height: 3em;
-  text-align: center;
-  font-size: 1.2em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-nav  {
-  list-style-type: none;
-  display: flex;
 
-}
-nav a {
-  padding:1em;
-  min-width: 120px;
-  text-decoration: none;
-  padding: 10px;
 
-}
-nav a:link, nav a:visited {
-  color: var(--nav-link-color);
-}
-nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
-}
 
 .sitemap {
   display: grid;
@@ -184,4 +154,5 @@ footer {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
   display: flex; 
+}
 }
