@@ -6,7 +6,7 @@
 }
 
 header {
-  background-color: rgb(59, 191, 224);
+  background-color: #3a4194;
   height: 100%;
   padding: 2rem;
   text-align: center;
@@ -31,7 +31,7 @@ nav {
  }
 #menu {
  
-  border: 3;
+  border: 3px;
   background: none;
   color: #000;
   position: absolute;
@@ -106,7 +106,7 @@ main {
 
 .card h2 {
   color: white;
-  background-color: #63c5ec;
+  background-color: #3a4194;
   margin-top: 0;
   padding: 10px 20px;
 }
@@ -120,13 +120,13 @@ main {
 
 .card1 h2 {
   color: white;
-  background-color: #63c5ec;
+  background-color: #3a4194;
   margin-top: 0;
   padding: 10px 20px;
 }
 
 footer {
-  background-color: rgb(59, 191, 224);
+  background-color: #3a4194;
   text-align: center;
   padding: 40px;
   font-size: 20px;
