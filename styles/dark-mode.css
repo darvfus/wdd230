@@ -1,0 +1,60 @@
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-mode header {
+    background-color: #000;
+  }
+  
+  .dark-mode .navigation a {
+    color: #fff;
+  }
+  
+  .dark-mode .card {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-mode .card h2 {
+    background-color: #000;
+  }
+  
+  .dark-mode footer {
+    background-color: #000;
+  }
+  
+  .dark-mode-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .theme-switch {
+    display: none;
+  }
+  
+  .theme-switch-label {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .theme-switch-label::before {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-color: #888;
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
+  
+  .theme-switch:checked + .theme-switch-label::before {
+    transform: translateX(20px);
+  }
+  
