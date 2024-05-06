@@ -1,46 +1,137 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  
 }
+
+header {
+  background-color: #3a4194;
+  height: 100%;
+  padding: 2rem;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+
+}
+
+header img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1rem;
+  
+}
+nav {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+ }
+#menu {
+ 
+  border: 3px;
+  background: none;
+  color: #000;
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+  
+}
+.navigation {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem 2rem;
+  transition: background-color 0.3s;
+  flex: 1 1 100%;
+
+ }
+
+.navigation a:hover {
+  background-color: #21a760;
+
+}
+
+.active::before {
+  content: "📍";  /* just a wayfinding symbol for the user */
+}
+
+
 
 body {
-    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+  font-family: 'Arial', sans-serif;
+  background-color: white;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  
 
-    background-color: #f8f7fb;
+
 }
 
-h1,
-footer {
-    text-align: center;
-    padding-block: 1em;
-    background-color: antiquewhite;
-}
 
-h1 {
-    margin-block-end: 1em;
-}
-
-footer {
-    margin-block-start: 1em;
-}
-
-img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
 
 main {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-    padding: 1em;
-
-    background: rgba(199, 227, 178, 0.2);
-    -webkit-backdrop-filter: blur(22px);
-    backdrop-filter: blur(22px);
-    border: 1px solid rgba(199, 227, 178, 0.3);
+  margin: 0 auto;
+  padding: 20px;
 }
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  border-radius: 10px;
+  list-style: none; /* Quita las viñetas de la lista */
+
+}
+
+.card {
+  flex: 2;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  list-style: none; /* Quita las viñetas de la lista */
+
+}
+
+.card h2 {
+  color: white;
+  background-color: #3a4194;
+  margin-top: 0;
+  padding: 10px 20px;
+}
+
+.card1 {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.card1 h2 {
+  color: white;
+  background-color: #3a4194;
+  margin-top: 0;
+  padding: 10px 20px;
+}
+
+footer {
+  background-color: #3a4194;
+  text-align: center;
+  padding: 40px;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+
+}
+

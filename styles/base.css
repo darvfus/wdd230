@@ -1,8 +1,7 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
@@ -15,7 +14,6 @@ header {
   gap: 4rem;
   background-color: #3a4194;
   color: white;
-
 }
 
 header img {
@@ -23,23 +21,23 @@ header img {
   height: auto;
   border-radius: 5px;
 }
-nav {
 
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #000000;
- }
+}
+
 #menu {
- 
   border: 3px;
   background: none;
   color: #000;
   position: absolute;
   top: 2rem;
   right: 1rem;
-  
 }
+
 .navigation {
   display: flex;
   list-style-type: none;
@@ -55,12 +53,10 @@ nav {
   padding: 1rem 2rem;
   transition: background-color 0.3s;
   flex: 1 1 100%;
-
- }
+}
 
 .navigation a:hover {
   background-color: #21a760;
-
 }
 
 .active::before {
@@ -73,7 +69,7 @@ figcaption {
   left: 10%;
   transform: translate(-10%, -10%);
   color: #000;
-  background-color:#fff0e0 ;
+  background-color: #fff0e0;
   padding-inline: 2em;
   padding-block: 2em;
   font-weight: 600;
@@ -86,22 +82,16 @@ body {
   color: black;
   margin: 0;
   padding: 0;
-  
-
-
 }
-
-
 
 main {
   width: 95%;
-background-color:  #fff0e0;
+  background-color: #fff0e0;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 2em;
   padding: 1em;
-
   -webkit-backdrop-filter: blur(22px);
   backdrop-filter: blur(22px);
   border: 1px solid rgba(128, 228, 51, 0.3);
@@ -110,13 +100,18 @@ background-color:  #fff0e0;
 	margin: 10px auto;
 	position: relative;
 	border: 1px solid rgba(0,0,0,.1);
-	height: 300px;
+	height: 100%;
+  margin-top: 0px;
 }
 
+.hero {
+  margin-top: -18px; 
+}
 .hero img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+  
 }
 
 .herolabel {
@@ -138,22 +133,21 @@ background-color:  #fff0e0;
 	font-size: 1.5rem;
 	font-family:"Great Vibes", serif;
 }
+
+
 .card-container {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   border-radius: 10px;
-  list-style: none; /* Quita las viñetas de la lista */
-
-}
+  list-style: none; }
 
 .card {
   flex: 2;
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
-  list-style: none; /* Quita las viñetas de la lista */
-
+  list-style: none; 
 }
 
 .card h2 {
@@ -178,30 +172,31 @@ background-color:  #fff0e0;
 }
 
 .label {
-	font-family: Arial, sans-serif;
-	font-weight: 700;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
 }
 
 #visits {
-	color: navy;
-	font-weight: bolder;
-	font-size: larger;
+  color: navy;
+  font-weight: bolder;
+  font-size: larger;
 }
 
 .map iframe {
-  width: 100%; 
-  height: auto; 
+  width: 100%;
+  height: auto;
 }
-figure{
-   width: 100%; 
-  height: auto; 
-  
+
+figure {
+  width: 10%;
+  height: auto;
 }
 
 .card-container figure {
-  flex: 2; /* Esto hace que las figuras ocupen 2 partes de 3 del ancho disponible */
-  margin: 0; /* Quita el margen predeterminado */
+  flex: 2; 
+  margin: 0; 
 }
+
 footer {
   background-color: #3a4194;
   text-align: center;
@@ -209,6 +204,4 @@ footer {
   font-size: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
-
 }
-
