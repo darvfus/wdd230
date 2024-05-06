@@ -22,7 +22,7 @@
 <body>
   <header>
          <picture>
-        <img src="images/daniel.png" alt="Daniel Image" loading="lazy" width="150" height="200">
+        <img src="images/daniel.png" alt="Daniel Image">
       </picture>
       <span class="name">Daniel Romero</span>   
      </header>
@@ -37,24 +37,14 @@
  
 
   <main>
-    <div id="hero">
-
-        
-          <picture>
-            <source media="(max-width: 400px)" srcset="images/hero-small.webp">
-            <source media="(max-width: 960px)" srcset="images/hero-medium.webp">
-            <img src="images/hero-large.webp" alt="Photo of Mexican Temple" width="100%" height="500" loading="lazy">
-          </picture>
-          <div class="herolabel">
-            <p>Mexican  Temple</p>
-          </div>
-        
-     
-
-    </div>  
-    
-     
-  
+    <figure>
+      <picture>
+        <source media="(max-width: 400px)" srcset="images/hero-small.webp">
+        <source media="(max-width: 960px)" srcset="images/hero-medium.webp">
+        <img src="images/hero-large.webp" alt="Photo of Ghana Accra Temple" width="1080" height="720" loading="lazy">
+      </picture>
+      <figcaption>Ghana Accra Temple</figcaption>
+    </figure>
 
 
     <h1>WDD 230: Web Frontend Development</h1>
@@ -63,9 +53,8 @@
         <h2>Learning Activities</h2>
         <ul id="learning-activities">
           <li>week 01: <a href="week01/holygrail.html">Holgrail</a> | <a href="week01/media-query.html"> Media query </a></li>
-          <li>week 02:<a href="week02/boom.html">Boom| </a><a href="week02/design.html">Desing| </a><a href="week02/Hamburguer-Menu.html">Menu| </a></li>
-          <li>week 03:<a href="week03/images/landscape.webp">WebP| </a><a href="week03/lazyload.html">Lazy| </a><a href="week03/boom.html">Boom| </a>
-            <a href="week03/local-Storege.html">Storage </a></li>
+          <li>week 02:<a href="week02/boom.html">Boom| </a><a href="week02/design.html">Desing| </a><a href="week02/Hamburguer-Menu.html">Hamburguer-Menu| </a></li>
+          <li>week 03:<a href="week03/images/landscape.webp">WebP| </a><a href="week03/lazyload.html">Lazy| </a><a href="week03/boom.html">Boom| </a></li>
           <li>week 04:</li>
           <li>week 05:</li>
           <li>week 06:</li>
@@ -75,15 +64,9 @@
         <h2>Information</h2>
         <p>Morelos, Mexico</p>
         <p>Weather: 45 F</p>
-        <p><span class="label">Number of Visits: </span><span class="visits"></span></p>      </section>
+        <p>Number of visits: 20</p>
+      </section>
     </div>
-
-    <section class="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15106.594825039248!2d-99.25221745184744!3d18.813802567397733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdd9078572e9a9%3A0xab1059bed218c2af!2sMiguel%20Hidalgo%2C%2062790%20Xochitepec%2C%20Mor.!5e0!3m2!1ses-419!2smx!4v1714992940079!5m2!1ses-419!2smx" 
-      width="1400" height="600" style="border:0;" allowfullscreen="" 
-      loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
-
   </main>
 
   <footer>
@@ -94,7 +77,6 @@
   <!-- JavaScript -->
   <script src="scripts/getDates.js"></script>
   <script src="scripts/menu.js"></script>
-  <script src="scripts/visit.js"></script>
 
 </body>
 
