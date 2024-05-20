@@ -1,0 +1,33 @@
+{
+    "family-name": "Romero Vergara",
+    "dateMoveToWard": "2002",
+    "numberOfPeopleInFamily": 5,
+    "visitedByBishopric": true,
+    "familyMembers": [
+        {
+            "name": "Silvia",
+            "gender": "Female",
+            "dateOfBirth": "August-28-1950"
+        },
+        {
+            "name": "Filogonio",
+            "gender": "Male",
+            "dateOfBirth": "dec-03-1948"
+        },
+        {
+            "name": "Angelina",
+            "gender": "Female",
+            "dateOfBirth": "Nov-05-1990"
+        },
+        {
+            "name": "Jazmin",
+            "gender":"Fale",
+            "dateOfBirth": "April-10-1993"
+        },
+        {
+            "name": "Daniel",
+            "gender":"Male",
+            "dateOfBirth": "Feb-02-1999"
+        }
+    ]
+}

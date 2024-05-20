@@ -1,0 +1,105 @@
+{
+    "weeks": [
+        {
+            "week": "Week 01",
+            "links": [
+                {
+                    "url": "https://darvfus.github.io/wdd230/week01/holygrail.html",
+                    "title": "holygray"
+                },
+                {
+                    "url": "https://darvfus.github.io/wdd230/week01/media-query.html",
+                    "title": "Media-Query"
+                },
+                {
+                    
+                }
+            ]
+        },
+        {
+            "week": "Week 02",
+            "links": [
+                {
+                    "url": "https://darvfus.github.io/wdd230/week02/boom.html",
+                    "title": "Boom"
+                },
+                
+                {
+                    "url": "https://darvfus.github.io/wdd230/week02/design.html",
+                    "title": "Desing"
+                },
+                {
+                    "url": "https://darvfus.github.io/wdd230/week02/Hamburguer-Menu.html",
+                    "title": "Responsive Menu"
+                }
+            ]
+        },
+        {
+            "week": "Week 03",
+            "links": [
+                {
+                    "url": "https://darvfus.github.io/wdd230/week03/images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "https://darvfus.github.io/wdd230/week03/lazyload.html",
+                    "title": "Lazy Loading"
+                },
+                {
+                    "url": "https://darvfus.github.io/wdd230/week03/boom.html",
+                    "title": "srcset"
+                },
+                {
+                    "url": "https://darvfus.github.io/wdd230/week03/local-Storege.html",
+                    "title": "localStorage"
+                }
+            ]
+        },
+        {
+            "week": "Week 04",
+            "links": [
+                {
+                    "url": "https://codepen.io/KoiMonga/pen/KKbxNdM",
+                    "title": "Pseudo Classes"
+                },
+                {
+                    "url": "images/combinator.webp",
+                    "title": "CSS Combinators"
+                },
+                {
+                    "url": "https://koigor97.github.io/wdd230/week04/index.html",
+                    "title": "Forms"
+                },
+                {
+                    "url": "https://koigor97.github.io/wdd230/chamber/join.html",
+                    "title": "Chamber Join"
+                }
+            ]
+        },
+        {
+            "week": "Week 05",
+            "links": [
+                {
+                    "url": "https://codepen.io/KoiMonga/pen/dywaOEJ",
+                    "title": "Psuedo Element"
+                },
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "JSON"
+                },
+                {
+                    "url": "https://koigor97.github.io/wdd230/week05/prophets.html",
+                    "title": "Latter-Day Prophets"
+                },
+                {
+                    "url": "https://koigor97.github.io/wdd230/week05/weather.html",
+                    "title": "Weather API"
+                },
+                {
+                    "url": "https://koigor97.github.io/wdd230/chamber/directory.html",
+                    "title": "Chamber Directory"
+                }
+            ]
+        }
+    ]
+}

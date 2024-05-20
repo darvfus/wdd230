@@ -205,3 +205,18 @@ footer {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
 }
+
+.weather-info {
+  position: relative;
+}
+
+.weather-info figcaption {
+  position: absolute;
+  top: 10px; 
+  left: 50px;
+  background-color: #fff;
+  padding: 0.5em 1em; 
+  font-weight: 600;
+  color: #000;
+  z-index: 1; 
+}
