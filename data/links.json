@@ -59,20 +59,16 @@
             "week": "Week 04",
             "links": [
                 {
-                    "url": "https://codepen.io/KoiMonga/pen/KKbxNdM",
+                    "url": "https://darvfus.github.io/wdd230/week04/Pseudo-classes%20-%20sol.html",
                     "title": "Pseudo Classes"
                 },
                 {
-                    "url": "images/combinator.webp",
+                    "url": "https://darvfus.github.io/wdd230/images/combinator-exercises.PNG",
                     "title": "CSS Combinators"
                 },
                 {
-                    "url": "https://koigor97.github.io/wdd230/week04/index.html",
+                    "url": "https://darvfus.github.io/wdd230/week04/index.html",
                     "title": "Forms"
-                },
-                {
-                    "url": "https://koigor97.github.io/wdd230/chamber/join.html",
-                    "title": "Chamber Join"
                 }
             ]
         },
@@ -80,25 +76,18 @@
             "week": "Week 05",
             "links": [
                 {
-                    "url": "https://codepen.io/KoiMonga/pen/dywaOEJ",
+                    "url": "https://codepen.io/Daniel-Romero-Vergara/pen/gOJrpVv",
                     "title": "Psuedo Element"
                 },
+               
                 {
-                    "url": "week05/new-ward-members.json",
-                    "title": "JSON"
-                },
-                {
-                    "url": "https://koigor97.github.io/wdd230/week05/prophets.html",
+                    "url": "https://darvfus.github.io/wdd230/week05/prophets.html",
                     "title": "Latter-Day Prophets"
                 },
                 {
-                    "url": "https://koigor97.github.io/wdd230/week05/weather.html",
+                    "url": "https://darvfus.github.io/wdd230/week05/weather.html",
                     "title": "Weather API"
-                },
-                {
-                    "url": "https://koigor97.github.io/wdd230/chamber/directory.html",
-                    "title": "Chamber Directory"
-                }
+                }               
             ]
         }
     ]
