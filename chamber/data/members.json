@@ -1,0 +1,76 @@
+{
+  
+    "businesses": [
+      {
+        "name": "Hotel Las Mañanitas",
+        "description": "Luxury Hotel",
+        "address": "Ricardo Linares 107, Centro, 62000 Cuernavaca, Mor.",
+        "phone": "(777) 314 1456",
+        "url": "https://www.lasmananitas.com.mx/",
+        "logo": "https://www.lasmananitas.com.mx/images/logo_lasmananitas.png",
+        "membership": "Gold",
+        "since": "1980"
+      },
+      {
+        "name": "Jardines de México",
+        "description": "Tourist Attraction",
+        "address": "Autopista México-Acapulco Km. 129, Tequesquitengo, 62915 Jojutla, Mor.",
+        "phone": "(734) 116 9090",
+        "url": "https://www.jardinesdemexico.com/",
+        "logo": "https://www.jardinesdemexico.com/images/logo.png",
+        "membership": "Gold",
+        "since": "2014"
+      },
+      {
+        "name": "Hospiten Cuernavaca",
+        "description": "Hospital",
+        "address": "Av. Emiliano Zapata 201, Lomas de la Selva, 62270 Cuernavaca, Mor.",
+        "phone": "(777) 101 8600",
+        "url": "https://hospiten.com/",
+        "logo": "https://hospiten.com/Portals/0/Images/hospiten-logo-web.svg",
+        "membership": "Silver",
+        "since": "2001"
+      },
+      {
+        "name": "Café Alondra",
+        "description": "Coffee Shop",
+        "address": "Calle Miguel Hidalgo 17, Centro, 62740 Yautepec de Zaragoza, Mor.",
+        "phone": "(735) 394 5703",
+        "url": "https://www.cafealondra.com/",
+        "logo": "https://cafealondra.com/wp-content/uploads/2017/05/cafe-alondra-logo.png",
+        "membership": "Bronze",
+        "since": "1995"
+      },
+      {
+        "name": "Grutas de Cacahuamilpa",
+        "description": "Tourist Attraction",
+        "address": "Carretera Federal 166, Km 54, Cacahuamilpa, 40390 Grutas de Cacahuamilpa, Mor.",
+        "phone": "(721) 123 4567",
+        "url": "https://grutasdecacahuamilpa.com.mx/",
+        "logo": "https://www.mexicodesconocido.com.mx/wp-content/themes/md2020/img/mexicodesconocido.svg",
+        "membership": "Gold",
+        "since": "1936"
+      },
+      {
+        "name": "Balneario Agua Hedionda",
+        "description": "Water Park",
+        "address": "Calz. de los Reyes 48, 62730 Cuautla, Mor.",
+        "phone": "(735) 352 2000",
+        "url": "https://www.aguahedionda.com.mx/",
+        "logo": "https://aguahedionda.mx/images/logo.png",
+        "membership": "Silver",
+        "since": "1952"
+      },
+      {
+        "name": "Xochicalco Archaeological Site",
+        "description": "Historical Site",
+        "address": "Xochicalco, 62605 Miacatlán, Mor.",
+        "phone": "(734) 342 1084",
+        "url": "https://xochicalco.inah.gob.mx/",
+        "logo": "https://lugares.inah.gob.mx/images/interfaz/LugaresINAH-20.png",
+        "membership": "Bronze",
+        "since": "1999"
+      }
+    ]
+  }
+  

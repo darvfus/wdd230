@@ -478,3 +478,115 @@ h3{
 .form-container form input[type="submit"] {
     background-color: purple;
 }
+
+.intro-section {
+  text-align: center;
+  padding-inline: 1em;
+}
+
+/*directory*/
+.main2 {
+  margin-top: 0;
+  margin: 0 auto;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 1em;
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
+  border: 1px solid rgba(128, 228, 51, 0.3);
+}
+
+  .menu1 {
+    border: 1px solid rgba(19, 52, 213, 0.1);
+    padding: 0.5rem;
+    background-color: rgb(38, 35, 202);
+    text-align: center;
+  }
+  
+  .menu1 button {
+    padding: 1rem;
+    font-weight: 700;
+  }
+  
+  section1 {
+    border: 1px solid rgba(81, 173, 39, 0.1);
+    padding: 0.5rem;
+    background-color: #92A5A7;
+  }
+  
+  #cards {
+    display: grid;
+    grid-gap: 5px;
+    align-items: center;
+  }
+  
+  #cards section1 {
+    text-align: center;
+  }
+  
+  #cards img {
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #333;
+  }
+  
+  #cards section1 > * {
+    margin: 0.1rem;
+  }
+  
+  #cards h3 {
+    font-family: "Caveat", cursive;
+  }
+  
+  
+  
+  .list-directory p {
+    display: none;
+  }
+  .list-directory section {
+    display: grid;
+    gap: 10px;
+    padding: 0.25rem;
+    width: 100%;
+  }
+  
+  .list-directory section1 > * {
+    margin: 0 1rem;
+  }
+  
+  .list-directory section1 img {
+    display: none; /* smaller viewports only */
+  }
+  
+  .list-directory section1 h3 {
+    font-size: 1rem;
+    font-family: Roboto, Helvetica, sans-serif;
+  }
+  
+  .list-directory section1:nth-child(even) {
+    background-color: rgb(197, 197, 197);
+  }
+  
+  section1 h3 {
+    font-size: 1.5rem;
+  }
+  
+  section1 p {
+    font-weight: 600;
+    font-size: smaller;
+  }
+  
+  section1 a {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 0.85rem;
+    color: navy;
+    letter-spacing: 1.1pt;
+  }
+  
+  img {
+    height: 75px;
+    max-width: 100%;
+  }
+  
