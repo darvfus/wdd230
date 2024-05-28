@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  font-size: 40px;
+  padding: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  background-color: #3a4194;
+  color: white;
+}
+
+header img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+}
+
+#menu {
+  border: 3px;
+  background: none;
+  color: #000;
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+}
+
+.navigation {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem 2rem;
+  transition: background-color 0.3s;
+  flex: 1 1 100%;
+}
+
+.navigation a:hover {
+  background-color: #21a760;
+}
+
+.active::before {
+  content: "📍";  /* just a wayfinding symbol for the user */
+}
+
+figcaption {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  transform: translate(-10%, -10%);
+  color: #000;
+  background-color: #fff0e0;
+  padding-inline: 2em;
+  padding-block: 2em;
+  font-weight: 600;
+  text-shadow: -1rem 2px 2rem;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 95%;
+  background-color: #fff0e0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 1em;
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
+  border: 1px solid rgba(128, 228, 51, 0.3);
+}
+.hero {
+	margin: 10px auto;
+	position: relative;
+	border: 1px solid rgba(0,0,0,.1);
+	height: 100%;
+  margin-top: 0px;
+}
+
+.hero {
+  margin-top: -18px; 
+}
+.hero img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  
+}
+
+.herolabel {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+	/* Buenas */
+}
+
+.herolabel p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 1.5rem;
+	font-family:"Great Vibes", serif;
+}
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  border-radius: 10px;
+  list-style: none; }
+
+.card {
+  flex: 2;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  list-style: none; 
+}
+
+.card h2 {
+  color: white;
+  background-color: #3a4194;
+  margin-top: 0;
+  padding: 10px 20px;
+}
+
+.card1 {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.card1 h2 {
+  color: white;
+  background-color: #3a4194;
+  margin-top: 0;
+  padding: 10px 20px;
+}
+
+.label {
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+}
+
+#visits {
+  color: navy;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.map iframe {
+  width: 100%;
+  height: auto;
+}
+
+figure {
+  width: 10%;
+  height: auto;
+}
+
+.card-container figure {
+  flex: 2; 
+  margin: 0; 
+}
+
+footer {
+  background-color: #3a4194;
+  text-align: center;
+  padding: 40px;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.weather-info {
+  position: relative;
+}
+
+.weather-info figcaption {
+  position: absolute;
+  top: 10px; 
+  left: 50px;
+  background-color: #fff;
+  padding: 0.5em 1em; 
+  font-weight: 600;
+  color: #000;
+  z-index: 1; 
+}

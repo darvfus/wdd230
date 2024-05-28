@@ -1,0 +1,148 @@
+@media screen and (max-width: 600px){
+  body {
+    font-size: 16px; 
+    text-align: justify;
+  }
+
+  footer {
+    background-color: #3a4194; 
+    text-align: center; 
+    padding: 10px; 
+    font-size: 12px; 
+    color: white;
+    top: 100px; 
+  }
+
+  header {
+    font-size: 10px; 
+    text-align: center; 
+    position: relative;
+    color: white
+
+  }
+
+  header img {
+    display: inline-block;
+    width: 70px;
+    vertical-align: middle; 
+  }
+  
+  .name {
+    display: inline-block; 
+    margin-left: 8px; 
+    vertical-align: middle; 
+    font-size: 20px;
+    color: white
+  }
+
+  nav {
+    max-width: 700px;
+    margin: 1rem auto;
+  }
+  
+  /* small view navigation */
+  #menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  
+  #menu::before {
+    content: "☰";
+  }
+  
+  #menu.open::before {
+    content: "❎";
+  }
+  
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+  
+  .navigation a {
+    display: none;
+    padding: 2rem;
+
+  }
+
+  .open a {
+    display: block;
+  }
+  
+  .active::before { 
+    content: "📍";  /* just a wayfinding symbol for the user */
+  }
+  
+  main {
+    padding: 20px; 
+    position: relative;
+    top: 0;
+    margin-bottom: 60px; 
+  }
+
+  h1 {
+    font-size: 24px; 
+    text-align: center; 
+  }
+  .hero {
+    height: auto; /* Ajustamos la altura automáticamente */
+  }
+
+  .hero img {
+    width: 100%; /* Aseguramos que la imagen ocupe todo el ancho disponible */
+    height: auto; /* Permitimos que la altura se ajuste automáticamente */
+  }
+
+ 
+
+  .card-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    position: relative; 
+    list-style: none; 
+
+  }
+
+  .card {
+    flex: 1; 
+    margin-bottom: 20px; 
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    list-style: none; 
+  }
+
+  .card h2 {
+    color: white;
+    background-color: #63c5ec; 
+    margin-top: 0;
+    padding: 10px 20px; 
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px;
+  }
+
+  .card1 {
+    flex: 1; 
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+
+  .card1 h2 {
+    color: white;
+    background-color: #3a4194; 
+    margin-top: 0;
+    padding: 10px 20px; 
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px; 
+  }
+}
