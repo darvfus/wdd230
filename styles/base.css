@@ -220,3 +220,53 @@ footer {
   color: #000;
   z-index: 1; 
 }
+
+
+body.dark-mode {
+  background-color: white;
+  color: white;
+}
+
+body.dark-mode header {
+  background-color: black;
+}
+
+body.dark-mode nav {
+  background-color: gray;
+  color: white;
+
+}
+body.dark-mode main{
+  background-color: black;
+  color: white;
+
+}
+body.dark-mode .card h2 , body.dark-mode .card1 h2 {
+  background-color: #444;
+  color:white;
+}
+body.dark-mode .card1 p {
+  color:black;
+}
+
+body.dark-mode footer {
+  background-color: black;
+}
+
+body.dark-mode .navigation a {
+  color: #ccc;
+}
+
+body.dark-mode .navigation a:hover {
+  background-color: #444;
+}
+
+body.dark-mode .herolabel {
+  background: radial-gradient(#4D5B97, #333);
+}
+
+body.dark-mode #current-temp,
+body.dark-mode .visits {
+  color: black; 
+}
+

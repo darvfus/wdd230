@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Daniel Romero - WDD 230 - Web Frontend Development</title>
   <meta property="og:title" content="Daniel Romero - WDD230 - Web Frontend Development">
-  <meta name="description" content="WDD 230 - Web Frontend Development Daniel Romero| course assignment portal ">
+  <meta name="description" content="WDD 230 - Web Frontend Development Daniel Romero| course assignment portal">
   <meta name="author" content="Daniel Romero">
   <meta property="og:title" content="Daniel Romero- WDD230 - Web Frontend Development">
   <meta property="og:type" content="website">
@@ -16,34 +16,36 @@
   <link rel="stylesheet" href="styles/larger.css">
   <link rel="stylesheet" href="styles/base.css">
   <link rel="stylesheet" href="styles/form.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
   <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
   <header>
-         <picture>
-        <img src="images/daniel.png" alt="Daniel Image" loading="lazy" width="150" height="200">
-      </picture>
-      <span class="name">Daniel Romero</span>   
-     </header>
-<button id="menu"></button>
-<nav class="navigation">
-  <a href="index.html" title="Home" class="active">Home</a>
-  <a href="directory.html">directory</a>
- 
-  <a href="form.html">Form</a>
-</nav>
+    <picture>
+      <img src="images/daniel.png" alt="Daniel Image" loading="lazy" width="150" height="200">
+    </picture>
+    <span class="name">Daniel Romero</span>
+    <button id="theme-toggle"><i id="theme-icon" class="fas fa-moon"></i></button>
+  </header>
+  <button id="menu"></button>
+  <nav class="navigation">
+    <a href="index.html" title="Home" class="active">Home</a>
+    <a href="directory.html">directory</a>
+    <a href="form.html">Form</a>
+  </nav>
 
-<main>
-  <form action="record.html" method="get">
-      <label class="is-passwd-same"></label>
+  <main>
+    <form id="registration-form" action="record.html" method="get">
+      <label class="is-passwd-same" id="password-error" style="display:none; color: red;">Passwords do not match</label>
       <label>Username* <input type="text" name="username" id="username" required></label>
 
       <label>Password* <input type="password" name="password" id="password" required pattern="\S{8,}"
               title="(at least 8 characters, no spaces)"></label>
 
-      <label>Confirm Password* <input type="password" name="confirm-passwd" id="confirm-passwd" required pattern="\S{8,}" title="(at least 8 characters, no spaces)"></label>
+      <label>Confirm Password* <input type="password" name="confirm-passwd" id="confirm-passwd" required pattern="\S{8,}"
+              title="(at least 8 characters, no spaces)"></label>
 
       <label>Email* <input type="email" name="email" id="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
               title="Please enter a valid email address" required></label>
@@ -55,27 +57,25 @@
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
-              <option value="4">4</option>
+              <option value="4">4">4</option>
               <option value="5">5</option>
               <option value="6">6</option>
               <option value="7">7</option>
               <option value="8">8</option>
               <option value="9">9</option>
               <option value="10">10</option>
-             
           </datalist>
       </label>
 
       <input type="submit" value="Post Your Rating">
-  </form>
+    </form>
 
-  <section class="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15106.594825039248!2d-99.25221745184744!3d18.813802567397733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdd9078572e9a9%3A0xab1059bed218c2af!2sMiguel%20Hidalgo%2C%2062790%20Xochitepec%2C%20Mor.!5e0!3m2!1ses-419!2smx!4v1714992940079!5m2!1ses-419!2smx" 
-    width="1400" height="600" style="border:0;" allowfullscreen="" 
-    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </section>
-</main>
-   
+    <section class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15106.594825039248!2d-99.25221745184744!3d18.813802567397733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdd9078572e9a9%3A0xab1059bed218c2af!2sMiguel%20Hidalgo%2C%2062790%20Xochitepec%2C%20Mor.!5e0!3m2!1ses-419!2smx!4v1714992940079!5m2!1ses-419!2smx"
+        width="1400" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+  </main>
 
   <footer>
     <p>&#169; <span id="year"></span> Daniel Romero Mexico.</p>
@@ -85,6 +85,10 @@
   <!-- JavaScript -->
   <script src="scripts/getDates.js"></script>
   <script src="scripts/menu.js"></script> <!-- Script para controlar el menú de hamburguesa -->
+  <script src="scripts/dark-mode.js"></script>
+  <script src="scripts/password.js"></script>
+
+
 </body>
 
 </html>

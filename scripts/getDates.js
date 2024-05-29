@@ -1,13 +1,14 @@
-document.addEventListener("DOMContentLoaded", function() {
-  var yearSpan = document.getElementById("year");
-  var lastModifiedParagraph = document.getElementById("lastModified");
-  
-  var ultimaModificacion = new Date(document.lastModified);
-  var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', timeZoneName: 'short' };
-  var fechaFormato = ultimaModificacion.toLocaleString('en-US', options);
+document.addEventListener('DOMContentLoaded', (event) => {
+  const themeToggle = document.getElementById('theme-toggle');
+  const currentTheme = localStorage.getItem('theme') || 'light';
 
-  lastModifiedParagraph.textContent = "Last Modified: " + fechaFormato;
+  if (currentTheme === 'dark') {
+    document.body.classList.add('dark-mode');
+  }
 
-  var year = new Date().getFullYear();
-  yearSpan.textContent = year;
+  themeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    const theme = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
+    localStorage.setItem('theme', theme);
+  });
 });
